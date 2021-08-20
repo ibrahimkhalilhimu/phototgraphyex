@@ -1,0 +1,56 @@
+.logInBox {
+  width: 570px;
+  height: 457px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ababab;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: auto;
+}
+.logInText {
+  padding: 40px;
+}
+
+.logInText h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #c5c5c5;
+}
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 14px;
+}
+i {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+i:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+.googleBtn {
+  border-radius: 15px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .logInBox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .googleBtn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.addText {
+  margin-left: 8px;
+}
+.homeDetails {
+  margin-top: 50px;
+}
+
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+.details-image {
+  width: 400px;
+  margin-left: 80px;
+}
+@media only screen and (max-width: 1178px) {
+  .details-image {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .details-image {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .details-image {
+    width: 300px;
+    margin-left: 0px;
+  }
+}

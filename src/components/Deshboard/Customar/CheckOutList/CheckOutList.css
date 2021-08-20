@@ -1,0 +1,35 @@
+.checkOutList {
+  background: #f4f7fc;
+  width: 100%;
+  height: 100vh;
+}
+.checkOutList .card {
+  height: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.checkOutList .card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .checkOutList {
+    height: 100%;
+  }
+}
+.bookPending {
+  background-color: #ffe3e3;
+  color: #ff4545 !important;
+}
+.bookDone {
+  background-color: #c6ffe0;
+  color: #009444 !important;
+}
+.bookOnGoing {
+  background-color: #ffbd3e;
+}

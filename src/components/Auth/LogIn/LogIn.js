@@ -25,9 +25,6 @@ let { from } = location.state || { from: { pathname: "/" } };
         .then(res => {
           toast.dismiss(loading);
           setLoggedInUser(res)
-          if(res.email == "test@admin.com" || "test@test.com"){
-            alert('Now You Are Admin please do not use bad')
-          }
           history.replace(from);
         }).catch(err => {
           console.log(err);
